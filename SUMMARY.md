@@ -2,4 +2,4 @@
 
 - [Intro](README.md)
 - [Laravel](Laravel/README.md)
-  - [Test](Laravel/Test.md)
+  - [Service & Repository Patern](Laravel/Service-Repository-Patern.md)
