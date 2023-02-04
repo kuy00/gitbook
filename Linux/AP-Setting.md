@@ -27,42 +27,42 @@ wpa_supplicant -B -i {interface-name} -c /etc/wpa_supplicant/wpa_supplicant.conf
     ```bash
     ex) ap-conecction
 
-    #! /bin/sh
+        #! /bin/sh
 
-    ### BEGIN INIT INFO
-    # Provides: ap-connection
-    # Required-Start:
-    # Required-Stop:
-    # Default-Start: 2 3 4 5
-    # Default-Stop:
-    # Short-Description: auto connection AP
-    ### END INIT INFO
+        ### BEGIN INIT INFO
+        # Provides: ap-connection
+        # Required-Start:
+        # Required-Stop:
+        # Default-Start: 2 3 4 5
+        # Default-Stop:
+        # Short-Description: auto connection AP
+        ### END INIT INFO
 
-    case $1 in
-        start)
-            echo "Down eth0 Interface"
-            sudo ifconfig eth0 down
+        case $1 in
+            start)
+                echo "Down eth0 Interface"
+                sudo ifconfig eth0 down
 
-            echo "Up wlan0 Interface"
-            sudo ifconfig wlan0 up
+                echo "Up wlan0 Interface"
+                sudo ifconfig wlan0 up
 
-            echo "Connection AP"
-            sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
-            ;;
-        stop)
-            echo "Up eth0 Interface"
-            sudo ifconfig eth0 up
+                echo "Connection AP"
+                sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+                ;;
+            stop)
+                echo "Up eth0 Interface"
+                sudo ifconfig eth0 up
 
-            echo "Down wlan0 Interface"
-            sudo ifconfig wlan0 down
-            ;;
-        restart)
-            echo "Connection AP"
-            sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
-            ;;
-    esac
+                echo "Down wlan0 Interface"
+                sudo ifconfig wlan0 down
+                ;;
+            restart)
+                echo "Connection AP"
+                sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+                ;;
+        esac
 
-    exit 0
+        exit 0
     ```
 - 생성된 스크립트 권한 설정 및 서비스 등록
     ```bash
@@ -84,7 +84,7 @@ dhclient {interface-name}
 ```
 
 # 고정 IP 할당
-- netplan 설정 파일 추가
+- netplan 설정 파일 추가 - /etc/netplan
     ```bash
     ex) 10-wifi-static-init.yaml
     network:
