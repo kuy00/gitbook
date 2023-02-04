@@ -7,4 +7,6 @@
   - [Notification](https://github.com/kuy00/vue-notification)
   - [Svg Loader](https://github.com/kuy00/vue-svg-loader)
 - [React](React/README.md)
-  [Flux Patern])(React/Flux-Patern.md)
+  - [Flux Patern])(React/Flux-Patern.md)
+- [Linux](Linux/README.md)
+  - [AP 설정](Linux/AP-Setting.md)
