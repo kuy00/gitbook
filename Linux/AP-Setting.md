@@ -96,6 +96,8 @@ network:
             routes:
                 - to: default
                     via: {gateway}
+            nameservers:
+                addresses: [8.8.8.8,8.8.4.4]
             access-points:
                 {ssid}:
                     password: {password}
