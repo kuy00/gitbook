@@ -11,7 +11,7 @@
 ## Action
 - Action Creator
 - 유저액션을 통해 발생한 Action Type, Payload를 담아 놓는 객체
-```js
+```javascript
 const ADD_TODO = 'ADD_TODO';
 
 export const addTodo = (payload) => {
@@ -37,7 +37,7 @@ export const addTodo = (payload) => {
 - getState: Store에 있는 상태
 - dispatch: Store에 등록한 Reducer에 액션 객체를 전달
 - subscribe: Store 상태 변경을 감지
-```js
+```javascript
 import { createStore } from 'redux';
 
 const store = createStore(reducer);
@@ -48,7 +48,7 @@ export default store;
 - 현재 상태, 액션 객체를 받아서 새로운 상태로 반환
 - Reducer가 Action의 Type을 확인하여 Store의 상태 업데이트
 - dispatch 함수를 통해서 Action 객체를 Reducer에 전달
-```js
+```javascript
 const todo = (state, action) => {
   const { type, payload } = action;
 
@@ -80,7 +80,7 @@ export default todo;
 - Reducer은 Export Default 처리
 - Action Creator는 Export 처리
 - Action Type은 reducer/ACTION_TYPE 으로 정의
-```js
+```javascript
 // Action Types
 const ADD = 'todo/ADD';
 
