@@ -8,5 +8,6 @@
   - [Svg Loader](https://github.com/kuy00/vue-svg-loader)
 - [React](React/README.md)
   - [Flux Pattern](React/Flux-Pattern.md)
+  - [Redux](React/Redux.md)
 - [Linux](Linux/README.md)
   - [AP 설정](Linux/AP-Setting.md)
