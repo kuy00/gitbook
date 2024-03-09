@@ -1,4 +1,4 @@
-## Dart 문법 - Collections
+# Dart 문법 - Collections
 
 ## list
 ```dart
