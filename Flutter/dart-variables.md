@@ -1,4 +1,4 @@
-# Dart - Variables
+# Dart - Variable
 
 ## var
 ```dart
