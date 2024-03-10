@@ -18,4 +18,5 @@
     - 부모 위젯에서 자식 위젯을 다시 빌드하도록 요청 시 didUpdateWidget() 함수를 통해 위젯은 dirty 상태가 됨
     - dirty 상태가 된 위젯은 다시 build 후 clean 상태로 돌아옴
     - 위젯이 더 이상 사용되지 않을 경우 dispose 됨
+
 ![img](/Images/flutter-widget-life-cycle.png)
