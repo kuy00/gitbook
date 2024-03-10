@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Intro](README.md)
-* [Laravel](laravel/README.md)
+* [Laravel](Laravel/README.md)
   * [Service & Repository Pattern](Laravel/Service-Repository-Pattern.md)
 * [Vue](Vue/README.md)
   * [Notification](https://github.com/kuy00/vue-notification)
@@ -11,8 +11,8 @@
   * [Redux](React/Redux.md)
 * [Linux](Linux/README.md)
   * [AP 설정](Linux/AP-Setting.md)
-* [Flutter](flutter/README.md)
+* [Flutter](Flutter/README.md)
   * [Dart - Variables](Flutter/dart-variables.md)
   * [Dart - Collections](Flutter/dart-collections.md)
   * [Dart - Functions](Flutter/dart-functions.md)
-  * [Dart - Asynchronous](flutter/dart-asynchronous.md)
+  * [Dart - Asynchronous](Flutter/dart-asynchronous.md)
