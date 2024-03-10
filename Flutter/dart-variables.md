@@ -1,4 +1,4 @@
-# Dart 문법 - Variables
+# Dart - Variables
 
 ## var
 ```dart

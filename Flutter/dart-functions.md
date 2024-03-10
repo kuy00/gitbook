@@ -1,4 +1,4 @@
-# Dart 문법 - Functions
+# Dart - Functions
 
 ## 선언
 ```dart
